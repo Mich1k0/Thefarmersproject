@@ -8,4 +8,12 @@ use Illuminate\Database\Eloquent\Model;
 class Crop extends Model
 {
     use HasFactory;
+    protected $guarded = [];
+
+    public function region()
+    {
+        
+       
+return $this->belongsTo(Region::class);
+    }
 }

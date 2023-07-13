@@ -6,5 +6,21 @@ use Illuminate\Http\Request;
 
 class UserController extends Controller
 {
-    //
+    //login registration view//
+    
+public function signup(){
+    return view('Farmer.sign-up');
+}
+
+public function login(){
+    return view('Farmer.login');
+}
+public function authenticate(){
+    return view('Farmer.authenticate');
+
+}
+
+public function signin(){
+    return view('Farmer.sign-in');
+}
 }

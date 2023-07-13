@@ -23,6 +23,22 @@ class CreateRegionTable extends Migration
 
             $table->foreign('Crop_ID')->references('Crop_ID')->on('crop');
         });
+
+
+        $regions = [
+            [
+           
+'name' => 'Region 1'],
+            [
+           
+'name' => 'Region 2'],
+            [
+           
+'name' => 'Region 3'],
+            
+           
+// Add more predefined regions as needed
+        ];
     }
 
     /**

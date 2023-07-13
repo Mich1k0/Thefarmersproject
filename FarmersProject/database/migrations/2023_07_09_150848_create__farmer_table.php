@@ -27,8 +27,10 @@ class CreateFarmerTable extends Migration
             $table->foreign('Region_ID')->references('Region_ID')->on('region');
             $table->foreign('Crop_ID')->references('Crop_ID')->on('crop');
         });
+        
     }
 
+    
     /**
      * Reverse the migrations.
      *

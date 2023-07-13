@@ -18,6 +18,8 @@ class CreateAdminTable extends Migration
             $table->string('Username');
             $table->string('password');
             $table->string('Name');
+
+            
         });
     }
 
