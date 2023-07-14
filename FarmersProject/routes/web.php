@@ -4,6 +4,7 @@ use App\Http\Controllers\UserController;
 use App\Http\Controllers\CropController;
 use App\Http\Controllers\RegionController;
 use Illuminate\Support\Facades\Route;
+use resources\views\user;
 
 /*
 |--------------------------------------------------------------------------
@@ -43,3 +44,4 @@ Route::get('regions/index',[RegionController::class,'index']);
     
 //crop
 Route::get('Crop/create',[CropController::class,'create']);
+Route::get('User/login',[UserController::class,'login']);

@@ -13,7 +13,7 @@ public function signup(){
 }
 
 public function login(){
-    return view('Farmer.login');
+    return view('User.login');
 }
 public function authenticate(){
     return view('Farmer.authenticate');
